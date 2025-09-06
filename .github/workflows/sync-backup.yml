@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # This gives permission to push changes
+      contents: write
 
     steps:
       - name: Checkout the repo
